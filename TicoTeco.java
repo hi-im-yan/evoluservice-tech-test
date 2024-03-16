@@ -6,8 +6,11 @@ public class TicoTeco {
 //    Exemplo, para o caso de 1 a 5, o programa nos daria '1, 2, Tico, 4, Teco'.
 //    Utilize o esqueleto a seguir para implementar seu código: public void ticoTeco() { // Seu código }
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i++) {
+        ticoTeco();
+    }
 
+    public static void ticoTeco() {
+        for (int i = 1; i <= 100; i++) {
             if (isMultipleOf3(i) && isMultipleOf5(i)) {
                 System.out.println("TicoTeco");
             } else if (isMultipleOf3(i)) {
